@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+body{
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	color: #726A84;
+}
+#sec-intro{
+	background-image: url(../img/header-bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 10% 0% 5%;
+	position: relative;
+}
+#fondo{
+	position: absolute;
+	width: 100%;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.header-area.sticky .navbar-default{
+    background-color: #3EA1D1;
+	box-shadow: 0 4px 20px rgba(51, 94, 204, 0.3);
+}
+.btn-header{
+	border-radius: 50px;
+	background-color: #fff;
+	color: #3298C2;
+	text-align: center;
+	padding: 10px 20px;
+	font-weight: 100;
+	border: none;
+}
+.btn-header:hover{
+	background-color: #3298C2;
+	color: #fff;
+}
+#sec-intro h1{
+	font-size: 40px;
+	padding-bottom: 5%;
+}
+#sec-intro p{
+	font-weight: 100;
+	line-height: 25px;
+	padding-bottom: 5%
+}
+.info{
+	align-content: center;
+	text-align: center;
+	padding: 0% 5%;
+	transition: all 0.2s ease-in-out; 
+	padding: 20% 5%;
+}
+.info:hover{
+	box-shadow: 2px 2px 40px 5px #eff2f5;
+
+}
+#sec-services{
+	padding: 10% 0%;
+	font-size: 16px;
+}
+#sec-services h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 800;
+}
+#sec-build{
+	background-color: #3EA1D1;
+	color: #fff;
+	padding: 10% 0% 5%;
+}
+.btn-azul{
+	border-radius: 50px;
+	background-color: #335ECC;
+	color: #fff;
+	text-align: center;
+	padding: 10px 20px;
+	font-weight: 100;
+	border: none;
+}
+.btn-azul:hover{
+	background-color: #fff;
+	color: #335ECC;
+}
+.info2{
+	align-content: center;
+	text-align: center;
+	padding: 0% 5%;
+	transition: all 0.2s ease-in-out; 
+	padding: 5% 5%;
+	box-shadow: 2px 2px 40px 5px #eff2f5;
+}
+.info2 h3{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+#sec-team h2{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+#sec-team{
+	text-align: center;
+	padding: 5% 5%;
+}
+.subtitulo{
+	padding-bottom: 5%;
+	text-align: center;
+}
+#sec-clientes{
+	background-image: url(../img/header-bg3.jpg);
+	padding: 10% 0%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	align-content: center;
+
+}
+#sec-testimonials{
+	padding: 5% 0%;
+}
+#sec-testimonials img{
+	padding-bottom: 7%;
+}
+.app-carousel {
+align-content: center;
+
+}
+.info3{
+	padding: 5% 5%;
+	box-shadow: 2px 2px 40px 5px #eff2f5;
+
+}
+.info3 p{
+	line-height: 20px;
+}
+#sec-contact{
+	background-color: #3EA1D1;
+	color: #fff;
+	padding: 10% 0%;
+}
+#sec-contact h2{
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+}
+.icon-contact{
+	background-color: #fff;
+	color: #3EA1D1;
+	text-align: center;
+	padding: 4% 5% 1%;
+	font-size: 35px;
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+}
+#sec-contact h5{
+	font-weight: 700;
+}
+.form-group{
+	width: 500px;
+
+}
+#prueba-fondo{
+	background-color: rgba(62, 161, 209, 0.7);
+	position: relative;
+	padding: 10% 0%;
+}
+.foto{
+	position: relative;
+	z-index: -1;
+	top: -200px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 110%;
+}
+
+
+.angle{
+	position: absolute;
+	top: 400px;
+	left: -100px;
+}
+
+footer{
+	background-color: #335ECC;
+	color: #fff;
+	padding: 5% 10%;
+	line-height: 20px;
+}
+footer h5{
+	padding-top: 3%;
+}
+footer i{
+	background-color: #fff;
+	color: #335ECC;
+	text-align: center;
+	padding: 20% 20%;
+	font-size: 20px;
+	border-radius: 100%;
+}
+.app-carousel .center .single-shot {
+
+    opacity: 1;
+
+    transform: scale(1);
+
+}
+
+
+.app-carousel .single-shot {
+
+    opacity: 0.8;
+
+    transform: scale(0.8);
+
+}
+
+
+
+.app-carousel .owl-dots {
+
+    text-align: center;
+
+}
+
+.app-carousel .owl-dot {
+
+    height: 11px;
+
+    width: 11px;
+
+    border: 2px solid #a49fba !important;
+
+    border-radius: 50%;
+
+    margin: 35px 6px;
+
+}
+
+.app-carousel .owl-dot.active {
+
+    background-color: #fb397d;
+
+    border: 0 !important;
+
+}
